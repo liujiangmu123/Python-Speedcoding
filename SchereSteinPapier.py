@@ -1,6 +1,7 @@
 '''
 Python Schere-Stein-Papier
 Author: Ari
+Youtube: 
 '''
 import random as r
 
