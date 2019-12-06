@@ -1,7 +1,7 @@
 '''
 Python Schere-Stein-Papier
 Author: Ari
-Youtube: 
+Youtube: https://youtu.be/7KtWioCF2qI
 '''
 import random as r
 
@@ -35,7 +35,7 @@ def rpi(user_input):
             return [0, "Ich habe Schere! Ich habe gewonnen!"]
     
 
-
+# Main
 def main():
     print("Wir spielen 3 Runden!")
     
