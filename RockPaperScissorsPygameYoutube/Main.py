@@ -1,6 +1,12 @@
 import pygame, random, vector, math
 pygame.init()
 
+'''
+Pygame Speedcoding Rock paper Scissors Visualization
+Author: Ari24
+Youtube: https://youtu.be/fQrgQzJPPYw
+'''
+
 def rps(user_input):
     '''
     Code aus meinem Speedcoding https://youtu.be/7KtWioCF2qI
