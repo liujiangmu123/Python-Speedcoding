@@ -8,7 +8,7 @@ from tkinter.scrolledtext import ScrolledText
 
 class BrainPyFuck:
 	def __init__(self):
-		self.pointers = []
+	    	self.pointers = []
 		self.pointer_index = 0
 
 		self.root = Tk()
