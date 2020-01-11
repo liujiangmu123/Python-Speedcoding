@@ -9,3 +9,4 @@ for printable in printables:
 
 with open("a.json", "w") as fh:
 	json.dump(a, fh, indent=4)
+	
