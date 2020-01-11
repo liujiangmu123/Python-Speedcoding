@@ -3,7 +3,7 @@
 All commands:
 
 + Adds a pointer
-- Removes the las pointer. If pointers are 0, it will raise an Error
+- Removes the last pointer. If pointers are 0, it will raise an Error
 > goes one pointer right. If its on the end, it will go to the first pointer
 < goes one pointer left. If its on the start, it will go to the last pointer
 p increase the pointer value by 1
