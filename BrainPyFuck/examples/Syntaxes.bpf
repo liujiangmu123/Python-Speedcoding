@@ -1,0 +1,20 @@
+* Commentary Start/End Brackets 
+
+All commands:
+
++ Adds a pointer
+- Removes the las pointer. If pointers are 0, it will raise an Error
+> goes one pointer right. If its on the end, it will go to the first pointer
+< goes one pointer left. If its on the start, it will go to the last pointer
+p increase the pointer value by 1
+m decrease the pointer value by 1
+i multiplies the pointer with itself
+; prints the pointer value
+: prints the pointer value in ascii
+a prints all pointers (like a list)
+s prints all pointers in ascii value in a row
+n prints all pointers in ascii value
+c prints the current pointer position
+l prints the length of the pointer
+
+*
