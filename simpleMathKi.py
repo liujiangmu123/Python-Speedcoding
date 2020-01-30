@@ -2,7 +2,7 @@
 Project: SimpleMathKi
 Author: Ari24
 Youtube:
-GitHub:
+GitHub: https://github.com/Ari24-cb24/Python-Speedcoding/edit/master/simpleMathKi.py
 '''
 
 from sklearn.linear_model import LinearRegression
