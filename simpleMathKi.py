@@ -1,7 +1,7 @@
 '''
 Project: SimpleMathKi
 Author: Ari24
-Youtube:
+Youtube: https://youtu.be/YgYZo_v-fDw
 GitHub: https://github.com/Ari24-cb24/Python-Speedcoding/edit/master/simpleMathKi.py
 '''
 
