@@ -11,7 +11,7 @@ def line_intersection(x1, y1, x2, y2, x3, y3, x4, y4):
     den = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
     if den == 0:
         return createVector(0, 0)
-    
+
     t = ((x1 - x3) * (y3 - y4) - (y1 - y3) * (x3 - x4)) / den
     u = -((x1 - x2) * (y1 - y3) - (y1 - y2) * (x1 - x3)) / den
 
@@ -19,10 +19,10 @@ def line_intersection(x1, y1, x2, y2, x3, y3, x4, y4):
     pt.x = x1 + t * (x2 - x1)
     pt.y = y1 + t * (y2 - y1)
 
-    return pt
+    return [pt, u]
 
 intersection_vector = line_intersection(x1, y1, x2, y2, x3, y3, x4, y4)
-intersection_vector.to_integer()
+intersection_vector[0].to_integer()
 
 run = True
 while run:
@@ -34,12 +34,12 @@ while run:
     x4, y4 = mouseX, mouseY
 
     intersection_vector = line_intersection(x1, y1, x2, y2, x3, y3, x4, y4)
-    intersection_vector.to_integer()
+    intersection_vector[0].to_integer()
 
     pygame.draw.line(screen, (255, 255, 255), (x1, y1), (x2, y2))
     pygame.draw.line(screen, (255, 255, 255), (x3, y3), (x4, y4))
 
-    pygame.draw.ellipse(screen, (255, 0, 0), (intersection_vector.x - 5, intersection_vector.y - 5, 10, 10))
+    pygame.draw.ellipse(screen, (255, 0, 0) if intersection_vector[1] > 1 else (0, 255, 0), (intersection_vector[0].x - 5, intersection_vector[0].y - 5, 10, 10))
 
     pygame.display.update()
 
