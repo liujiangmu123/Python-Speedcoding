@@ -1,8 +1,8 @@
 '''
 Evaluating Pi with Collisions
 
-Github:
-YouTube:
+Github: https://github.com/Ari24-cb24/Python-Speedcoding/edit/master/EvaluatingPiYT/EvaluatingPiWithCollisions/
+YouTube: https://youtu.be/y0hKsoaMrMg
 Numberphile's Video: https://www.youtube.com/watch?v=abv4Fz7oNr0
 TheCodingTrain's Video: https://www.youtube.com/watch?v=PoW8g67XNxA&t=0s
 3Blue1Brown Videos:
