@@ -2,8 +2,8 @@
 Evaluating Pi with Darts
 Pi = 4 * (DartsInCircle / TotalDarts)
 
-Github:
-Youtube:
+Github: https://github.com/Ari24-cb24/Python-Speedcoding/edit/master/EvaluatingPiYT/EvaluatingPiWithDarts/
+Youtube: https://youtu.be/y0hKsoaMrMg
 Wikipedia: https://en.wikipedia.org/wiki/Approximations_of_%CF%80
 
 Creator: Ari24
