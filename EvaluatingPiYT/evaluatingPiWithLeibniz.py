@@ -1,7 +1,7 @@
 '''
 Evaluating Pi with Leibniz Method
-Github:
-Youtube:
+Github: https://github.com/Ari24-cb24/Python-Speedcoding/edit/master/EvaluatingPiYT/evaluatingPiWithLeibniz.py
+Youtube: https://youtu.be/y0hKsoaMrMg
 Wikipedia: https://de.wikipedia.org/wiki/Leibniz-Reihe
 
 Creator: Ari24
