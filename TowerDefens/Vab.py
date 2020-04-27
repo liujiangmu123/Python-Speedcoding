@@ -1,7 +1,7 @@
 import pygame, random, math, json
-from hf import *
+#from hf import *
 from vector import *
-from Array import *
+#from Array import *
 pygame.init()
 
 WIDTH, HEIGHT = 800, 600
