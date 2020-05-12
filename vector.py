@@ -19,6 +19,39 @@ class createVector:
                     if len(args) > 3:
                         raise ValueError("3 arguments (x, y, z) is the maximum of a vector!")
 
+    def __str__(self):
+        return f"Python Vector Object: [X: {self.x}, Y: {self.y}, Z: {self.z}]"
+
+    def __eq__(self, other):
+        return self.x == other.x and self.y == other.y and self.z == other.z
+
+    def __gt__(self, other):
+        return self.x > other.x and self.y > other.y and self.z > other.z
+
+    def __ge__(self, other):
+        return self.x >= other.x and self.y >= other.y and self.z >= other.z
+
+    def __lt__(self, other):
+        return self.x < other.x and self.y < other.y and self.z < other.z
+
+    def __le__(self, other):
+        return self.x <= other.x and self.y <= other.y and self.z <= other.z
+
+    def __add__(self, other):
+        return createVector(self.x + other.x, self.y + other.y, self.z + other.z)
+
+    def __sub__(self, other):
+        return createVector(self.x - other.x, self.y - other.y, self.z - other.z)
+
+    def __mul__(self, other):
+        return createVector(self.x * other.x, self.y * other.y, self.z * other.z)
+
+    def __truediv__(self, other):
+        return createVector(self.x / other.x, self.y / other.y, self.z / other.z)
+
+    def __floordiv__(self, other):
+        return createVector(self.x // other.x, self.y // other.y, self.z // other.z)
+
     def add(self, vec):
         if type(vec) == createVector:
             self.x += vec.x
